@@ -1,0 +1,745 @@
+{% extends 'base.html' %} 
+{% load static %}
+{% block content %} 
+<main class="container">
+        
+        <!-- ================= HOME SECTION ================= -->
+        <section id="home" class="app-section active">
+            <div class="intro">
+                <h1>LST <span>WORKS</span></h1>
+                <p>LST Works, always up to date with farmer trends, offers a complete range of high-quality engineering and customization, able to meet and anticipate the farmers' toughest field needs.</p>
+                <div class="divider"></div>
+            </div>
+
+            <div class="grid-layout">
+                <div class="card card-large">
+                    <img src="{% static 'assets/images/lst1.jpg' %}" alt="LST Heavy Customization Work">
+                    <div class="card-overlay">
+                        <a href="#catalog" class="card-btn nav-tab-trigger" data-target="catalog">LST.Works Catalog</a>
+                    </div>
+                </div>
+
+                <div class="right-column">
+                    <div class="card card-banner stolzle-card">
+                        <img src="{% static 'assets/images/lst2.jpg' %}" alt="Mahindra Yuvo Specialization">
+                        <div class="card-overlay dark-overlay">
+                            <div class="brand-info">
+                                <h2>LST.Works</h2>
+                                <p>born in field</p>
+                            </div>
+                            <div class="collection-info">
+                                <h3>Mahindra yuvo Custom</h3>
+                                <a href="#tractor" class="discover-link nav-tab-trigger" data-target="tractor">DISCOVER THE SPECIFICATIONS</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card card-banner">
+                        <img src="{% static 'assets/images/lst3.jpg' %}" alt="LST Trolley Production Line">
+                        <div class="card-overlay">
+                            <a href="#trolley" class="card-btn nav-tab-trigger" data-target="trolley">LST Custom Trolleys</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Value Propositions / Features Row -->
+            <div class="features-row">
+                <div class="feature-box">
+                    <span class="feature-icon"><i class="fa-solid fa-gears" style="color: var(--accent-orange);"></i></span>
+                    <h3>Custom Implements</h3>
+                    <p>Engineered to order. We modify tractor bodies, weight balances, and guard rails for optimal field performance.</p>
+                </div>
+                <div class="feature-box">
+                    <span class="feature-icon"><i class="fa-solid fa-truck-monster" style="color: var(--accent-orange);"></i></span>
+                    <h3>Heavy-Duty Trolleys</h3>
+                    <p>Built using grade-A structural steel. Double-axle and hydraulic tippers customized to withstand extreme payloads.</p>
+                </div>
+                <div class="feature-box">
+                    <span class="feature-icon"><i class="fa-solid fa-screwdriver-wrench" style="color: var(--accent-orange);"></i></span>
+                    <h3>Expert Servicing</h3>
+                    <p>From gearboxes to high-tensile rotary blades, we keep your agricultural machinery operational during critical seasons.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= ABOUT US SECTION ================= -->
+        <section id="about" class="app-section">
+            <div class="intro">
+                <h1>About <span>Us</span></h1>
+                <p>Learn more about our craftsmanship, dedication to farmer success, and the history behind Lakshmi Srinu Tractor Works.</p>
+                <div class="divider"></div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>Forging Field Solutions Since 2011</h2>
+                    <p>At Lakshmi Srinu Tractor Works, we recognize that standard farming machinery doesn't always handle local agricultural terrains. That's why we specialize in customizing standard machinery to adapt to rocky soil conditions, high-volume payloads, and wet paddy fields.</p>
+                    <p>Founded by Srinu, our workshop in the agricultural hub has evolved from a small repair shop to a full-fledged tractor engineering and custom trolley fabrication facility. Every weld, axle, and hydraulic system is thoroughly tested to guarantee reliability when it matters most.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Years Field Exp</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">1,200+</span>
+                            <span class="stat-label">Happy Farmers</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Built to Last</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="{% static 'assets/images/lst1.jpg' %}" alt="LST Workshop and Team Work">
+                </div>
+            </div>
+
+            <div class="about-timeline">
+                <h3 class="timeline-title">Our Growth Timeline</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <span class="timeline-year">2011</span>
+                        <div class="timeline-content">
+                            <h4>Workshop Foundation</h4>
+                            <p>Srinu launched a basic repair shop focusing on localized tractor tune-ups and welding works.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <span class="timeline-year">2015</span>
+                        <div class="timeline-content">
+                            <h4>Trolley Engineering Hub</h4>
+                            <p>Began designing custom single-axle steel trolleys explicitly optimized for hauling sugar cane and paddy bags.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <span class="timeline-year">2019</span>
+                        <div class="timeline-content">
+                            <h4>Hydraulic Tippers & Heavy Tillage</h4>
+                            <p>Introduced hydraulic dumper trailer models and high-durability rotavator modifications.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <span class="timeline-year">2026</span>
+                        <div class="timeline-content">
+                            <h4>Modern Agricultural Implements</h4>
+                            <p>Providing premium structural assemblies, customized front guard setups, and heavy logistics trailers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= LST TRACTOR SECTION ================= -->
+        <section id="tractor" class="app-section">
+            <div class="intro">
+                <h1>LST <span>Tractor Setup</span></h1>
+                <p>Explore custom bodywork, heavy bumpers, wheel weights, and modifications built on premium tractor platforms.</p>
+                <div class="divider"></div>
+            </div>
+
+            <div class="product-hero">
+                <div class="product-hero-text">
+                    <h2>Heavy Custom Modifications</h2>
+                    <p>We configure engine bumpers, rear towing hitches, high-clearance mudguards, and balance weights to adapt tractors for heavy hauling or deep tilling.</p>
+                </div>
+                <div class="product-hero-icon"><i class="fa-solid fa-tractor"></i></div>
+            </div>
+
+            <div class="product-grid">
+                <!-- Tractor Card 1 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="{% static 'assets/images/lst2.jpg' %}" alt="Mahindra Yuvo Custom Edition">
+                        <span class="product-tag">Popular</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Mahindra Yuvo LST Edition</h3>
+                        <p>Specially outfitted with a custom front safety bumper, auxiliary LED brackets, and extra rear wheel weight discs for mud traction.</p>
+                        <ul class="spec-list">
+                            <li><span>Engine HP Class</span><span>45 - 50 HP</span></li>
+                            <li><span>Front Guard</span><span>Heavy Dual-Bar Steel</span></li>
+                            <li><span>Rear Hitch</span><span>Reinforced Adjustable</span></li>
+                            <li><span>Soil Application</span><span>Wet Paddy / Dry Field</span></li>
+                        </ul>
+                        <div class="product-action">
+                            <a href="#contact" class="btn-primary nav-tab-trigger" data-target="contact" data-form-subject="Inquiry: Mahindra Yuvo LST Edition">Get Custom Quote</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tractor Card 2 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="{% static 'assets/images/lst1.jpg' %}" alt="Sonalika Tiger LST Custom">
+                        <span class="product-tag">Heavy Duty</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Sonalika Tiger Pro-Build</h3>
+                        <p>Modified with high-tensile steel front chassis plates, structural canopy support, and custom drawbar heights for massive trolley loads.</p>
+                        <ul class="spec-list">
+                            <li><span>Engine HP Class</span><span>50 - 55 HP</span></li>
+                            <li><span>Front Guard</span><span>Plate Bumper with Guard</span></li>
+                            <li><span>Chassis Frame</span><span>Sub-frame reinforcement</span></li>
+                            <li><span>Best Used For</span><span>Heavy Trolley Transport</span></li>
+                        </ul>
+                        <div class="product-action">
+                            <a href="#contact" class="btn-primary nav-tab-trigger" data-target="contact" data-form-subject="Inquiry: Sonalika Tiger Pro-Build">Get Custom Quote</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tractor Card 3 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="{% static 'assets/images/lst3.jpg' %}" alt="John Deere Custom Setup">
+                        <span class="product-tag">High Performance</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>John Deere Logistics Setup</h3>
+                        <p>Optimized with custom hydraulic distribution valves to feed dual-axle tippers and fitted with high-density steering balance weights.</p>
+                        <ul class="spec-list">
+                            <li><span>Engine HP Class</span><span>55+ HP</span></li>
+                            <li><span>Hydraulics</span><span>Dual Auxiliary Valves</span></li>
+                            <li><span>Ballast Weight</span><span>Up to 150kg Front</span></li>
+                            <li><span>Main Utility</span><span>Road Work & Long Haul</span></li>
+                        </ul>
+                        <div class="product-action">
+                            <a href="#contact" class="btn-primary nav-tab-trigger" data-target="contact" data-form-subject="Inquiry: John Deere Logistics Setup">Get Custom Quote</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= LST TROLLEY SECTION ================= -->
+        <section id="trolley" class="app-section">
+            <div class="intro">
+                <h1>LST <span>Custom Trolleys</span></h1>
+                <p>Heavy-duty build agricultural and industrial trailers, customized with reinforced axles and hydraulic dump setups.</p>
+                <div class="divider"></div>
+            </div>
+
+            <div class="product-hero">
+                <div class="product-hero-text">
+                    <h2>Engineered for Massive Payloads</h2>
+                    <p>Our trolleys feature heavy-gauge channel platforms, premium axles (Tata/Volvo pattern hubs), and industrial hydraulic jacks for reliable tipping operations.</p>
+                </div>
+                <div class="product-hero-icon"><i class="fa-solid fa-trailer"></i></div>
+            </div>
+
+            <div class="product-grid">
+                <!-- Trolley Card 1 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="{% static 'assets/images/lst1.jpg' %}" alt="Double Axle Hydraulic Tipper">
+                        <span class="product-tag">Heavy Payload</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Double Axle Hydraulic Tipper</h3>
+                        <p>Constructed with dual heavy axles and a 12-ton hydraulic jack. Features collapsible sidewalls for sand, stones, or high-volume bag transport.</p>
+                        <ul class="spec-list">
+                            <li><span>Payload Capacity</span><span>10 - 12 Tons</span></li>
+                            <li><span>Axle Setup</span><span>Tandem Double Axle</span></li>
+                            <li><span>Hydraulic Lift</span><span>120 Bar Multi-stage Jack</span></li>
+                            <li><span>Sheet Thickness</span><span>4.5mm Steel Base</span></li>
+                        </ul>
+                        <div class="product-action">
+                            <a href="#contact" class="btn-primary nav-tab-trigger" data-target="contact" data-form-subject="Inquiry: Double Axle Hydraulic Tipper">Get Custom Quote</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trolley Card 2 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="{% static 'assets/images/lst3.jpg' %}" alt="Single Axle Farming Trolley">
+                        <span class="product-tag">Standard</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Single Axle Standard Trolley</h3>
+                        <p>The staple farm wagon. Built with structural C-channels, custom tyre size compatibility, and solid mechanical handbrakes.</p>
+                        <ul class="spec-list">
+                            <li><span>Payload Capacity</span><span>5 - 6 Tons</span></li>
+                            <li><span>Axle Setup</span><span>Single Heavy Axle</span></li>
+                            <li><span>Braking System</span><span>Mechanical Handbrake</span></li>
+                            <li><span>Best For</span><span>Paddy, Sugarcane, Fertilizers</span></li>
+                        </ul>
+                        <div class="product-action">
+                            <a href="#contact" class="btn-primary nav-tab-trigger" data-target="contact" data-form-subject="Inquiry: Single Axle Standard Trolley">Get Custom Quote</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trolley Card 3 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="{% static 'assets/images/lst2.jpg' %}" alt="Lowbed Utility Flatbed">
+                        <span class="product-tag">Specialized</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Custom Lowbed Transport Flatbed</h3>
+                        <p>Designed for easy loading of small harvesters, mini-excavators, and road construction machinery. Built with heavy rear loading ramps.</p>
+                        <ul class="spec-list">
+                            <li><span>Payload Capacity</span><span>8 - 10 Tons</span></li>
+                            <li><span>Platform Type</span><span>Flatbed Lowbed</span></li>
+                            <li><span>Ramps</span><span>Spring-assisted Foldable</span></li>
+                            <li><span>Chassis</span><span>150mm ISMC Channel</span></li>
+                        </ul>
+                        <div class="product-action">
+                            <a href="#contact" class="btn-primary nav-tab-trigger" data-target="contact" data-form-subject="Inquiry: Custom Lowbed Transport Flatbed">Get Custom Quote</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= LST ROTAVATOR SECTION ================= -->
+        <section id="rotavator" class="app-section">
+            <div class="intro">
+                <h1>LST <span>Rotavator Tillage</span></h1>
+                <p>Soil rotary tillers custom geared for maximum pulverization, minimized diesel consumption, and robust reliability.</p>
+                <div class="divider"></div>
+            </div>
+
+            <div class="product-hero">
+                <div class="product-hero-text">
+                    <h2>Advanced Soil Tillage Implements</h2>
+                    <p>We customize gearbox ratios, fit premium boron steel blades, and reinforce side frames to ensure smooth operations in hard soil and marshy fields.</p>
+                </div>
+                <div class="product-hero-icon"><i class="fa-solid fa-shuffle"></i></div>
+            </div>
+
+            <div class="product-grid">
+                <!-- Rotavator Card 1 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="{% static 'assets/images/lst3.jpg' %}" alt="6 Feet Rotavator">
+                        <span class="product-tag">Best Seller</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>LST Pro Rotavator (6 Feet)</h3>
+                        <p>Fitted with 48 premium boron steel L-blades, multi-speed heavy duty gearbox, and dual side oil seals to prevent water entry.</p>
+                        <ul class="spec-list">
+                            <li><span>Working Width</span><span>6 Feet (1.8 Meters)</span></li>
+                            <li><span>Blades Count</span><span>48 L-Type Boron Steel</span></li>
+                            <li><span>Gearbox Type</span><span>Multi-Speed Heavy Duty</span></li>
+                            <li><span>Tractor Power Required</span><span>40 - 50 HP</span></li>
+                        </ul>
+                        <div class="product-action">
+                            <a href="#contact" class="btn-primary nav-tab-trigger" data-target="contact" data-form-subject="Inquiry: LST Pro Rotavator 6ft">Get Custom Quote</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Rotavator Card 2 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="{% static 'assets/images/lst1.jpg' %}" alt="7 Feet Rotavator">
+                        <span class="product-tag">Heavy Duty</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>LST Super Tillage (7 Feet)</h3>
+                        <p>Engineered for higher horsepower tractors. Provides deep soil conditioning, high trash clearance, and heavy-duty frame reinforcement.</p>
+                        <ul class="spec-list">
+                            <li><span>Working Width</span><span>7 Feet (2.1 Meters)</span></li>
+                            <li><span>Blades Count</span><span>54 L-Type / C-Type Options</span></li>
+                            <li><span>Side Drive</span><span>Gear Drive in Oil Bath</span></li>
+                            <li><span>Tractor Power Required</span><span>50+ HP</span></li>
+                        </ul>
+                        <div class="product-action">
+                            <a href="#contact" class="btn-primary nav-tab-trigger" data-target="contact" data-form-subject="Inquiry: LST Super Tillage 7ft">Get Custom Quote</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Rotavator Card 3 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="{% static 'assets/images/lst2.jpg' %}" alt="Rotavator Blades Repair">
+                        <span class="product-tag">Maintenance Service</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Tillage Repair & Blade Fitting</h3>
+                        <p>Complete overhauling services including rotor rebalancing, gear replacements, side-leak fixes, and fitting high-durability customized blades.</p>
+                        <ul class="spec-list">
+                            <li><span>Service Duration</span><span>Same Day / 24 Hours</span></li>
+                            <li><span>Blade Material</span><span>Grade 30MnB5 Boron Steel</span></li>
+                            <li><span>Testing</span><span>Dynamic Rotor Balancing</span></li>
+                            <li><span>Warranty</span><span>6 Months Gearbox Assembly</span></li>
+                        </ul>
+                        <div class="product-action">
+                            <a href="#contact" class="btn-primary nav-tab-trigger" data-target="contact" data-form-subject="Service Inquiry: Rotavator Overhauling">Book Service</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= WORK REFERENCE SECTION ================= -->
+        <section id="work-reference" class="app-section">
+            <div class="intro">
+                <h1>Work <span>Reference</span></h1>
+                <p>Take a look at actual tractors, trolleys, and farm machinery designed, fabricated, and serviced in our workshop.</p>
+                <div class="divider"></div>
+            </div>
+
+            <!-- Gallery Grid with Lightbox Action -->
+            <div class="work-grid">
+                <!-- Gallery Item 1 -->
+                <div class="work-item" data-img-src="{% static 'assets/images/lst2.jpg' %}">
+                    <img src="{% static 'assets/images/lst2.jpg' %}" alt="Mahindra Yuvo Front Guard Customization">
+                    <div class="work-overlay">
+                        <h4>Custom Bumper & Weight Balancer</h4>
+                        <p>Mahindra Yuvo agricultural modification</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 2 -->
+                <div class="work-item" data-img-src="{% static 'assets/images/lst1.jpg' %}">
+                    <img src="{% static 'assets/images/lst1.jpg' %}" alt="Double Axle Trailer Steel Assembly">
+                    <div class="work-overlay">
+                        <h4>Trolley Chassis Welding</h4>
+                        <p>Double-axle heavy transport tipper fabrication</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 3 -->
+                <div class="work-item" data-img-src="{% static 'assets/images/lst3.jpg' %}">
+                    <img src="{% static 'assets/images/lst3.jpg' %}" alt="Tractor Rotavator gear setup">
+                    <div class="work-overlay">
+                        <h4>Rotavator Setup & Coupling</h4>
+                        <p>Coupling and testing a 6ft rotary tiller</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 4 -->
+                <div class="work-item" data-img-src="{% static 'assets/images/lst1.jpg' %}">
+                    <img src="{% static 'assets/images/lst1.jpg' %}" alt="Custom Trolley Delivery">
+                    <div class="work-overlay">
+                        <h4>Farming Tipper Delivery</h4>
+                        <p>Finished green coating tipper ready for field</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 5 -->
+                <div class="work-item" data-img-src="{% static 'assets/images/lst2.jpg' %}">
+                    <img src="{% static 'assets/images/lst2.jpg' %}" alt="Chassis reinforcement work">
+                    <div class="work-overlay">
+                        <h4>Chassis Box Section Reinforcement</h4>
+                        <p>Subframe structural strengthening for sugarcane transport</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 6 -->
+                <div class="work-item" data-img-src="{% static 'assets/images/lst3.jpg' %}">
+                    <img src="{% static 'assets/images/lst3.jpg' %}" alt="Tillage Blades Replacement">
+                    <div class="work-overlay">
+                        <h4>Rotor Blade Re-Fitting</h4>
+                        <p>Replacing standard blades with heavy boron steel</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= NEWS SECTION ================= -->
+        <section id="news" class="app-section">
+            <div class="intro">
+                <h1>Farming <span>News & Trends</span></h1>
+                <p>Stay updated with the latest technological upgrades, maintenance guides, and local agricultural tips from LST Works.</p>
+                <div class="divider"></div>
+            </div>
+
+            <div class="news-grid">
+                <!-- Article 1 -->
+                <div class="news-card">
+                    <div class="news-img">
+                        <img src="{% static 'assets/images/lst3.jpg' %}" alt="Soil Tillage technology">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-meta">June 14, 2026 | Tech Guides</span>
+                        <h3>Customizing Implements for Tough Clay Soils</h3>
+                        <p>Clay soils are notoriously hard to till. Learn how adjusting your rotavator gear ratio can save up to 15% fuel and prevent engine stall.</p>
+                        <a href="#contact" class="news-link nav-tab-trigger" data-target="contact" data-form-subject="Inquiry about Clay Tillage Implements">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+
+                <!-- Article 2 -->
+                <div class="news-card">
+                    <div class="news-img">
+                        <img src="{% static 'assets/images/lst2.jpg' %}" alt="Trolley Maintenance">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-meta">May 28, 2026 | Maintenance</span>
+                        <h3>Extending the Life of Your Tipping Trolley</h3>
+                        <p>Axle hub lubrication and hydraulic seal inspections are critical. We share a quick monthly checklist to prevent roadside breakdown during haulage.</p>
+                        <a href="#contact" class="news-link nav-tab-trigger" data-target="contact" data-form-subject="Inquiry about Trolley Maintenance Services">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+
+                <!-- Article 3 -->
+                <div class="news-card">
+                    <div class="news-img">
+                        <img src="{% static 'assets/images/lst1.jpg' %}" alt="Workshop Announcements">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-meta">April 12, 2026 | Workshop News</span>
+                        <h3>LST Works Expands Fabrication Center</h3>
+                        <p>We have installed advanced dynamic balancing rigs and automatic MIG welding systems to improve fabrication precision and deliver products faster.</p>
+                        <a href="#contact" class="news-link nav-tab-trigger" data-target="contact" data-form-subject="Inquiry about new fabrication capabilities">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= CATALOG SECTION ================= -->
+        <section id="catalog" class="app-section">
+            <div class="intro">
+                <h1>Product <span>Catalog</span></h1>
+                <p>Filter and explore our complete inventory of customized tractors, heavy trolleys, and soil rotavators in one dashboard.</p>
+                <div class="divider"></div>
+            </div>
+
+            <!-- Filter Categories -->
+            <div class="filter-container">
+                <button class="filter-btn active" data-filter="all">All Equipment</button>
+                <button class="filter-btn" data-filter="tractor">Tractors</button>
+                <button class="filter-btn" data-filter="trolley">Trolleys</button>
+                <button class="filter-btn" data-filter="rotavator">Rotavators</button>
+            </div>
+
+            <div class="product-grid" id="catalogGrid">
+                <!-- Catalog Item 1 (Tractor) -->
+                <div class="product-card" data-category="tractor">
+                    <div class="product-img">
+                        <img src="{% static 'assets/images/lst2.jpg' %}" alt="Mahindra Yuvo Custom Edition">
+                        <span class="product-tag">Tractor</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Mahindra Yuvo LST Edition</h3>
+                        <p>Custom bumper, LED brackets, and extra rear wheel weight discs.</p>
+                        <ul class="spec-list">
+                            <li><span>Power Class</span><span>45 - 50 HP</span></li>
+                            <li><span>Front Guard</span><span>Heavy Dual-Bar Steel</span></li>
+                        </ul>
+                        <div class="product-action">
+                            <a href="#contact" class="btn-primary nav-tab-trigger" data-target="contact" data-form-subject="Catalog Inquiry: Mahindra Yuvo LST Edition">Request Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Catalog Item 2 (Trolley) -->
+                <div class="product-card" data-category="trolley">
+                    <div class="product-img">
+                        <img src="{% static 'assets/images/lst1.jpg' %}" alt="Double Axle Hydraulic Tipper">
+                        <span class="product-tag">Trolley</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Double Axle Hydraulic Tipper</h3>
+                        <p>Dual heavy axles, 12-ton hydraulic jack, collapsible steel sidewalls.</p>
+                        <ul class="spec-list">
+                            <li><span>Payload Capacity</span><span>10 - 12 Tons</span></li>
+                            <li><span>Axle Setup</span><span>Tandem Double Axle</span></li>
+                        </ul>
+                        <div class="product-action">
+                            <a href="#contact" class="btn-primary nav-tab-trigger" data-target="contact" data-form-subject="Catalog Inquiry: Double Axle Hydraulic Tipper">Request Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Catalog Item 3 (Rotavator) -->
+                <div class="product-card" data-category="rotavator">
+                    <div class="product-img">
+                        <img src="{% static 'assets/images/lst3.jpg' %}" alt="6 Feet Rotavator">
+                        <span class="product-tag">Rotavator</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>LST Pro Rotavator (6 Feet)</h3>
+                        <p>48 premium boron steel L-blades and multi-speed heavy duty gearbox.</p>
+                        <ul class="spec-list">
+                            <li><span>Working Width</span><span>6 Feet (1.8M)</span></li>
+                            <li><span>Blades Count</span><span>48 L-Type</span></li>
+                        </ul>
+                        <div class="product-action">
+                            <a href="#contact" class="btn-primary nav-tab-trigger" data-target="contact" data-form-subject="Catalog Inquiry: LST Pro Rotavator 6ft">Request Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Catalog Item 4 (Tractor) -->
+                <div class="product-card" data-category="tractor">
+                    <div class="product-img">
+                        <img src="{% static 'assets/images/lst1.jpg' %}" alt="Sonalika Tiger LST Custom">
+                        <span class="product-tag">Tractor</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Sonalika Tiger Pro-Build</h3>
+                        <p>Modified front chassis plate, structural canopy support, customized drawbar.</p>
+                        <ul class="spec-list">
+                            <li><span>Power Class</span><span>50 - 55 HP</span></li>
+                            <li><span>Front Guard</span><span>Plate Bumper with Guard</span></li>
+                        </ul>
+                        <div class="product-action">
+                            <a href="#contact" class="btn-primary nav-tab-trigger" data-target="contact" data-form-subject="Catalog Inquiry: Sonalika Tiger Pro-Build">Request Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Catalog Item 5 (Trolley) -->
+                <div class="product-card" data-category="trolley">
+                    <div class="product-img">
+                        <img src="{% static 'assets/images/lst3.jpg' %}" alt="Single Axle Farming Trolley">
+                        <span class="product-tag">Trolley</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Single Axle Standard Trolley</h3>
+                        <p>Heavy C-channels structure, premium hubs, custom tyres, handbrake.</p>
+                        <ul class="spec-list">
+                            <li><span>Payload Capacity</span><span>5 - 6 Tons</span></li>
+                            <li><span>Axle Setup</span><span>Single Heavy Axle</span></li>
+                        </ul>
+                        <div class="product-action">
+                            <a href="#contact" class="btn-primary nav-tab-trigger" data-target="contact" data-form-subject="Catalog Inquiry: Single Axle Standard Trolley">Request Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Catalog Item 6 (Rotavator) -->
+                <div class="product-card" data-category="rotavator">
+                    <div class="product-img">
+                        <img src="{% static 'assets/images/lst1.jpg' %}" alt="7 Feet Rotavator">
+                        <span class="product-tag">Rotavator</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>LST Super Tillage (7 Feet)</h3>
+                        <p>High deep-soil conditioning rotor frame built for 50+ HP tractors.</p>
+                        <ul class="spec-list">
+                            <li><span>Working Width</span><span>7 Feet (2.1M)</span></li>
+                            <li><span>Blades Count</span><span>54 L-Type</span></li>
+                        </ul>
+                        <div class="product-action">
+                            <a href="#contact" class="btn-primary nav-tab-trigger" data-target="contact" data-form-subject="Catalog Inquiry: LST Super Tillage 7ft">Request Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= CONTACT US SECTION ================= -->
+        <section id="contact" class="app-section">
+            <div class="intro">
+                <h1>Contact <span>Us</span></h1>
+                <p>Have questions about customizations, pricing, or servicing? Drop us a message, and our engineering team will get back to you.</p>
+                <div class="divider"></div>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Contact Info Panel -->
+                <div class="contact-info-panel">
+                    <h3>Get In Touch</h3>
+                    <p>Visit our workshop or contact us directly via phone or email. We're here to assist you with all custom agricultural machinery builds.</p>
+                    
+                    <ul class="contact-detail-list">
+                        <li class="contact-detail-item">
+                            <span class="contact-icon"><i class="fa-solid fa-location-dot"></i></span>
+                            <div class="contact-text">
+                                <h4>Workshop Location</h4>
+                                <p>Lakshmi Srinu Tractor Works,<br>Plot No. 3-38, Markeet Street Area,<br>Near Agriculture Market Yard, Kakinada, AP</p>
+                            </div>
+                        </li>
+                        <li class="contact-detail-item">
+                            <span class="contact-icon"><i class="fa-solid fa-phone"></i></span>
+                            <div class="contact-text">
+                                <h4>Phone Support</h4>
+                                <p>+91 81434 12466 (Srinu)<br>+91 96663 98377 (Workshop Manager)</p>
+                            </div>
+                        </li>
+                        <li class="contact-detail-item">
+                            <span class="contact-icon"><i class="fa-solid fa-envelope"></i></span>
+                            <div class="contact-text">
+                                <h4>Email Enquiries</h4>
+                                <p>LSTWork@gmail.com<br>info@lstworks.com</p>
+                            </div>
+                        </li>
+                        <li class="contact-detail-item">
+                            <span class="contact-icon"><i class="fa-solid fa-clock"></i></span>
+                            <div class="contact-text">
+                                <h4>Working Hours</h4>
+                                <p>Monday - Saturday: 8:30 AM - 7:30 PM<br>Sunday: Emergency Field Repairs Only</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact Form Panel -->
+                <div class="contact-form-panel">
+                    <h3>Send A Message</h3>
+                    <p>Fill in details below to receive a call back and personalized quote.</p>
+                    
+                    <form id="contactForm" autocomplete="on">
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="formName" class="form-label">Full Name</label>
+                                <input type="text" id="formName" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="formPhone" class="form-label">Phone Number</label>
+                                <input type="tel" id="formPhone" class="form-control" placeholder="10-digit Mobile" pattern="[0-9]{10}" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="formEmail" class="form-label">Email Address (Optional)</label>
+                            <input type="email" id="formEmail" class="form-control" placeholder="yourname@gmail.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="formEquipment" class="form-label">Equipment Category</label>
+                            <select id="formEquipment" class="form-control" required>
+                                <option value="" disabled selected>Select equipment type</option>
+                                <option value="Tractor Modification">Tractor Custom Bumper / Guard</option>
+                                <option value="Hydraulic Trolley">Double Axle Hydraulic Tipper</option>
+                                <option value="Standard Trolley">Single Axle Standard Trolley</option>
+                                <option value="Rotavator Tillage">LST Rotavator Tiller</option>
+                                <option value="Repairs">Servicing & Maintenance</option>
+                                <option value="Other">Other Custom Work</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="formSubject" class="form-label">Subject / Purpose</label>
+                            <input type="text" id="formSubject" class="form-control" placeholder="Quick topic details (e.g. quote request)" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="formMessage" class="form-label">Detailed Requirements</label>
+                            <textarea id="formMessage" class="form-control" placeholder="Please describe your tractor horsepower, desired trailer size, or rotary blade requirements..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-submit">Submit Inquiry</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Success Toast Alert -->
+    <div class="toast-msg" id="successToast">
+        <i class="fa-solid fa-circle-check"></i> Thank you! Your inquiry was successfully submitted. We will call you soon.
+    </div>
+
+    <!-- Gallery Lightbox Modal -->
+    <div class="lightbox-modal" id="lightboxModal">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightboxClose">&times;</button>
+            <img src="" id="lightboxImg" alt="Enlarged Reference View">
+        </div>
+    </div>  
+{% endblock %}
