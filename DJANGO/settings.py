@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     #'kkd',
     'crud_app',
+    'Authentication',
+    
     
 
 ]

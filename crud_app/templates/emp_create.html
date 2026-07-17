@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        input {
+    margin-bottom: 15px;
+}
+    </style>
 </head>
 <body>
     <div class="container">
@@ -15,8 +20,27 @@
        </div>
        <form action="" method="post">
             {%csrf_token%}
-            {{form.as_p}}
-            <button type="submit">create</button>
+            <div class="col-md-6">
+                <label for="">EMP ID</label>
+                {{form.emp_id}}
+            </div>
+            <div class="col-md-6">
+                <label for="">NAME</label>
+                {{form.emp_name}}
+            </div>
+            <div class="col-md-6">
+                <label for="">EMAIL</label>
+                {{form.emp_email}}
+            </div>
+             <div class="col-md-6">
+                <label for="">NUMBER</label>
+                {{form.emp_number}}
+            </div>
+            <div class="col-md-6">
+                <label for="">ADDRESS</label>
+                {{form.emp_address}}
+            </div>
+            <button type="submit" class="btn btn-primary">Create</button>
        </form>
     </div>
     

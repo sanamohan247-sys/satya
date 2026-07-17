@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     #path('',include('kkd.urls')),
     path('crud_app/', include('crud_app.urls')),
+    path('auth/', include('Authentication.urls')),
 ]
